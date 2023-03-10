@@ -1,11 +1,47 @@
+body {
+    background-color: rgb(176, 202, 193);
+}
 .formazas {
     background-color: aqua;
     border: 1px solid black
 }
 article {
+    padding: 30px;
+    text-align: center;
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr;
+    border-radius: 10px;
+    margin-top: 20px;
+    transition: all .2s ease-in;
 }
-img {
-    width: 200px;
+article:hover {
+    background-color: rgba(0, 0, 0, 0.185);
+}
+section {
+    display: grid;
+    grid-template-columns: 1fr 10fr 1fr;
+    gap: 10px;
+}
+article img {
+    width: 50%;
+    padding: 20px;
+}
+.nagykep {
+    background-color: black;
+    height: 50vw;
+    overflow: hidden;
+}
+.nagykep img {
+    width: 100%;
+}
+button {
+    color: white;
+    background-color: rgb(0, 0, 82);
+    border: none;
+    border-radius: 10px;
+    transition: all .2s ease-in;
+    height: 50vw;
+}
+button:hover {
+    background-color: blue;
 }
